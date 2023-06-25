@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Testing Accessibility Tools</title>
+    <style></style>
+</head>
+<body>
+    <header>
+        <a href="#content">Skip Content</a>
+        <div id="div1">Div with id</div>
+        <div>Div with no id</div>
+        <h1>Test Page</h1>
+    </header>
+    <main id="content">
+        <h2>Main Content</h2>
+        <p>This is a test webpage just to test accessibility testing tools performance.</p>
+
+        <p>Here I want to put a span to make another failure <span>applicable</span> to this page.</p>
+
+        <p>I am putting this link here if you want to go to the <a href="#footer">footer</a> you should click on the it.</p>
+
+        <section id="form-section">
+            <h3>Form Section</h3>
+            <form method="get" id="form1" action="https://google.com" style="margin-bottom: 8px;">
+                <label for="text-1">Text 1</label>
+                <input id="text-1" type="text" name="text-1" size="20" maxlength="10">
+                <input type="radio" name="mirror" id="mirror_surfnet" value="surfnet.nl">
+                <label for="mirror_surfnet">SurfNet</label>
+                <br><br>
+                <button type="submit" aria-label="Submit">Submit</button>
+            </form>
+        </section>
+        <section id="list-section">
+            <h3>List Section</h3>
+            <ul>
+                <li><a href="#content">Homepage</a></li>
+                <li><a href="#form-section">Form Section</a></li>
+                <li><a href="#list-section">List Section</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </section>
+
+        <section id="images">
+            <h3>Image Section</h3>
+            <div id="image-with-alt">
+                <img width="300" height="200" alt="A girl with a camera on her eye taking a picture for more info click" src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&amp;w=1000&amp;q=80">
+            </div>
+            <a href="https://expedia.com" data-mutation-id="F89">
+                <img src="https://www.expedia.com/_dms/header/logo.svg?locale=en_US&amp;siteid=1&amp;2&amp;3ec60977" alt="">
+            </a>
+        </section>
+        <section id="tables">
+            <h3>Table Section</h3>
+            <table>
+                <caption>User's Information Table</caption>
+                <tbody>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Height (cm)</th>
+                    <th>Weight (kg)</th>
+                </tr>
+                <tr>
+                    <td>Linda</td>
+                    <td>33</td>
+                    <td>169</td>
+                    <td>59</td>
+                </tr>
+                <tr>
+                    <td>Jack</td>
+                    <td>37</td>
+                    <td>184</td>
+                    <td>74</td>
+                </tr>
+                <tr>
+                    <td>Kira</td>
+                    <td>8</td>
+                    <td>120</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>Daniel</td>
+                    <td>3</td>
+                    <td>79</td>
+                    <td>14</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer id="footer">
+        <h3>Footer</h3>
+        This is the footer <br>
+
+        <span role="navigation" onclick="window.scrollTo(0, 0)">Back to Top</span>
+    </footer>
+
+</body></html>
