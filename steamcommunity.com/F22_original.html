@@ -22,7 +22,7 @@
 <link href="Steam%20Community_files/shared_responsive.css" rel="stylesheet" type="text/css">
 <link href="Steam%20Community_files/apphub_images.css" rel="stylesheet" type="text/css">
 <link href="Steam%20Community_files/header.css" rel="stylesheet" type="text/css">
-			<script async="" src="Steam%20Community_files/analytics.js"></script><script>
+			<script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="Steam%20Community_files/analytics.js"></script><script>
 				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 						(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -104,7 +104,7 @@ if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.writ
 	
 	
 	
-	<link rel="stylesheet" type="text/css" href="Steam%20Community_files/communityawardsapp.css"></head>
+	<link rel="stylesheet" type="text/css" href="Steam%20Community_files/communityawardsapp.css"><link rel="stylesheet" type="text/css" href="https://community.cloudflare.steamstatic.com/public/css/applications/community/communityawardsapp.css?contenthash=9d553a26b9e194868478"></head>
 <body class=" responsive_page " style="">
 
 
@@ -166,12 +166,50 @@ property of their respective owners in the US and other countries.
 									</div>
 			</div>
 		
-		<div class="responsive_local_menu_tab"></div>
+		<div class="responsive_local_menu_tab active"></div>
 
 		<div class="responsive_page_menu_ctn localmenu">
 			<div class="responsive_page_menu" id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;#filter_toggle&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
 				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
-				</div>
+				<div class="community_home_app_shortcuts_list responsive_local_menu">
+					<div class="community_home_app_shortcuts_list_header">Popular Hubs</div>
+							<div class="appHubShortcut">
+			<a href="https://steamcommunity.com/app/440"><img class="appHubShortcut_Icon" src="Steam%20Community_files/e3f595a92552da3d664ad00277fad2107345f743.jpg"></a>
+			<div class="appHubShortcutText">
+				<a href="https://steamcommunity.com/app/440" class="appHubShortcut_Title ellipsis">Team Fortress 2</a>
+									<div class="new_items_num ellipsis">
+						42 new guides&nbsp;<span class="new_items_text">this week</span>
+					</div>
+							</div>
+		</div>
+				<div class="appHubShortcut">
+			<a href="https://steamcommunity.com/app/570"><img class="appHubShortcut_Icon" src="Steam%20Community_files/0bbb630d63262dd66d2fdd0f7d37e8661a410075.jpg"></a>
+			<div class="appHubShortcutText">
+				<a href="https://steamcommunity.com/app/570" class="appHubShortcut_Title ellipsis">Dota 2</a>
+									<div class="new_items_num ellipsis">
+						4,143 new guides&nbsp;<span class="new_items_text">this week</span>
+					</div>
+							</div>
+		</div>
+				<div class="appHubShortcut">
+			<a href="https://steamcommunity.com/app/730"><img class="appHubShortcut_Icon" src="Steam%20Community_files/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg"></a>
+			<div class="appHubShortcutText">
+				<a href="https://steamcommunity.com/app/730" class="appHubShortcut_Title ellipsis">Counter-Strike: Global Offensive</a>
+									<div class="new_items_num ellipsis">
+						375 new artwork&nbsp;<span class="new_items_text">this week</span>
+					</div>
+							</div>
+		</div>
+				<div class="appHubShortcut">
+			<a href="https://steamcommunity.com/app/1332010"><img class="appHubShortcut_Icon" src="Steam%20Community_files/7794cc0b4e70bd3e4b9a0d07e2570ab8668c5f0b.jpg"></a>
+			<div class="appHubShortcutText">
+				<a href="https://steamcommunity.com/app/1332010" class="appHubShortcut_Title ellipsis">Stray</a>
+									<div class="new_items_num ellipsis">
+						14 new artwork&nbsp;<span class="new_items_text">this week</span>
+					</div>
+							</div>
+		</div>
+						</div></div>
 			</div>
 		</div>
 
@@ -321,7 +359,7 @@ property of their respective owners in the US and other countries.
 <script type="text/javascript" src="Steam%20Community_files/manifest.js"></script>
 <script type="text/javascript" src="Steam%20Community_files/libraries~b28b7af69.js"></script>
 <script type="text/javascript" src="Steam%20Community_files/main.js"></script>
-<div data-featuretarget="apphub-ugcrewards"><div></div></div>	<div id="application_root"><div style="display: none;" class="FullModalOverlay"><div class="ModalOverlayContent ModalOverlayBackground"></div></div></div>
+<div data-featuretarget="apphub-ugcrewards"><div></div><div></div></div>	<div id="application_root"><div class="FullModalOverlay" style="display: none;"><div class="ModalOverlayContent ModalOverlayBackground"></div></div></div>
 
 		<div class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true}">
 
@@ -372,45 +410,7 @@ property of their respective owners in the US and other countries.
 				</div>
 						
 			
-							<div class="community_home_app_shortcuts_list responsive_local_menu">
-					<div class="community_home_app_shortcuts_list_header">Popular Hubs</div>
-							<div class="appHubShortcut">
-			<a href="https://steamcommunity.com/app/440"><img class="appHubShortcut_Icon" src="Steam%20Community_files/e3f595a92552da3d664ad00277fad2107345f743.jpg"></a>
-			<div class="appHubShortcutText">
-				<a href="https://steamcommunity.com/app/440" class="appHubShortcut_Title ellipsis">Team Fortress 2</a>
-									<div class="new_items_num ellipsis">
-						42 new guides&nbsp;<span class="new_items_text">this week</span>
-					</div>
-							</div>
-		</div>
-				<div class="appHubShortcut">
-			<a href="https://steamcommunity.com/app/570"><img class="appHubShortcut_Icon" src="Steam%20Community_files/0bbb630d63262dd66d2fdd0f7d37e8661a410075.jpg"></a>
-			<div class="appHubShortcutText">
-				<a href="https://steamcommunity.com/app/570" class="appHubShortcut_Title ellipsis">Dota 2</a>
-									<div class="new_items_num ellipsis">
-						4,143 new guides&nbsp;<span class="new_items_text">this week</span>
-					</div>
-							</div>
-		</div>
-				<div class="appHubShortcut">
-			<a href="https://steamcommunity.com/app/730"><img class="appHubShortcut_Icon" src="Steam%20Community_files/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg"></a>
-			<div class="appHubShortcutText">
-				<a href="https://steamcommunity.com/app/730" class="appHubShortcut_Title ellipsis">Counter-Strike: Global Offensive</a>
-									<div class="new_items_num ellipsis">
-						375 new artwork&nbsp;<span class="new_items_text">this week</span>
-					</div>
-							</div>
-		</div>
-				<div class="appHubShortcut">
-			<a href="https://steamcommunity.com/app/1332010"><img class="appHubShortcut_Icon" src="Steam%20Community_files/7794cc0b4e70bd3e4b9a0d07e2570ab8668c5f0b.jpg"></a>
-			<div class="appHubShortcutText">
-				<a href="https://steamcommunity.com/app/1332010" class="appHubShortcut_Title ellipsis">Stray</a>
-									<div class="new_items_num ellipsis">
-						14 new artwork&nbsp;<span class="new_items_text">this week</span>
-					</div>
-							</div>
-		</div>
-						</div>
+							<div class="responsive_local_menu_placeholder"></div>
 									<div style="clear: both"></div>
 		</div>
 	</div>
@@ -4415,10 +4415,10 @@ touch da accelerator da enjin brake kiks 'n an yer slo right down.&nbsp;</div>
 				<input type="hidden" name="userreviewscursor" value="AoIIP3X23HGV8ZEE"><input type="hidden" name="userreviewsoffset" value="6"><input type="hidden" name="p" value="3"><input type="hidden" name="workshopitemspage" value="3"><input type="hidden" name="readytouseitemspage" value="3"><input type="hidden" name="mtxitemspage" value="3"><input type="hidden" name="itemspage" value="3"><input type="hidden" name="screenshotspage" value="3"><input type="hidden" name="videospage" value="3"><input type="hidden" name="artpage" value="3"><input type="hidden" name="allguidepage" value="3"><input type="hidden" name="webguidepage" value="3"><input type="hidden" name="integratedguidepage" value="3"><input type="hidden" name="discussionspage" value="3"><input type="hidden" name="numperpage" value="10"><input type="hidden" name="browsefilter" value="trend"><input type="hidden" name="appid" value="0"><input type="hidden" name="appHubSubSection" value="11">	</form></div>
 			<div style="clear: both"></div>
 		</div>
-		<div class="apphub_GetMoreContent" id="GetMoreContentBtn" style="">
+		<div class="apphub_GetMoreContent" id="GetMoreContentBtn" style="display: none;">
 			<a href="javascript:CheckForMoreContent();">See More Content</a>
 		</div>
-		<div class="apphub_GetMoreContentWait" id="action_wait" style="display: none;">
+		<div class="apphub_GetMoreContentWait" id="action_wait" style="">
 			<img src="Steam%20Community_files/throbber.gif">Loading
 			<div id="LoadingProgressBarContainer" class="apphub_ProgressBarBG">
 				<div id="LoadingProgressBar" class="apphub_ProgressBar" style="width: 0%;"></div>
@@ -4492,4 +4492,4 @@ touch da accelerator da enjin brake kiks 'n an yer slo right down.&nbsp;</div>
 
 </div>	<!-- responsive_page_frame -->
 
-<div class="miniprofile_hover" style="display: none;"><div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="miniprofile_hover_inner shadow_content"></div></div><div id="simplifyJobsContainer"><span></span></div></body></html>
+<div class="miniprofile_hover" style="display: none;"><div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="miniprofile_hover_inner shadow_content"></div></div><div id="simplifyJobsContainer"><span></span></div><div class="miniprofile_hover" style="display: none;"><div class="shadow_ul"></div><div class="shadow_top"></div><div class="shadow_ur"></div><div class="shadow_left"></div><div class="shadow_right"></div><div class="shadow_bl"></div><div class="shadow_bottom"></div><div class="shadow_br"></div><div class="miniprofile_hover_inner shadow_content"></div></div></body></html>
